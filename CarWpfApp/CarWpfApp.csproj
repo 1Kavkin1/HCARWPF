@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>CarWpfApp</AssemblyName>
+    <RootNamespace>CarWpfApp</RootNamespace>
+    <ApplicationIcon />
+    <StartupObject />
+  </PropertyGroup>
+
+  <!-- Зображення-заглушка для авто (копіюється у вихідну теку) -->
+  <ItemGroup>
+    <Resource Include="Assets\car.png" />
+  </ItemGroup>
+
+</Project>
